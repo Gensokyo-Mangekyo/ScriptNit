@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Fredoka+One&family=Josefin+Sans&family=Michroma&family=Permanent+Marker&family=Roboto&display=swap');
+#MainBlock {
+    float: right;
+    width: 78%;
+    max-height: 75%;
+}
+
+#Chat {
+    background-color: white;
+    min-height: 75%;
+    max-width: 90%;
+    border-radius: 5px;
+    padding-bottom: 45%;
+    overflow: auto;
+}
+
+
+
+.GPTBox img {
+    float: left;
+    max-width: 5%;
+    max-height: 5%;
+}
+
+.GPTBox div {
+    margin: 20px 15px;
+
+    float: left;
+}

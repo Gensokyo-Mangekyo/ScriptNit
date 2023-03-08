@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Fredoka+One&family=Josefin+Sans&family=Michroma&family=Permanent+Marker&family=Roboto&display=swap');
+#logo {
+    width: 320px;
+    height: 50px;
+    flex-grow: 1;
+    font-size: 14;
+    margin-left: 3px;
+    font-weight: bold;
+    padding-left: 60px;
+    margin-bottom: 12px;
+    color: whitesmoke;
+    font-family: "Balthazar";
+}
+
+#logo a {
+    letter-spacing: 5px;
+}
+
+body {
+    background-image: url("../Img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#logo a, #logo a:visited {
+    color: whitesmoke;
+    font-size: 30px;
+    text-decoration: none;
+}
+#logo a {
+    color: whitesmoke;
+    font-size: 27px;
+    font-weight: bold;
+}
+#logo a:visited {
+    color: whitesmoke;
+}
+
+#header {
+    display: flex;
+}
+
+#menu {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    float: right;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 0;
+
+}
+
+#menu ul li {
+    padding: 15px 2px;
+    margin: 10px;
+    background-image: url("../Img/bluefon.png");
+    border: 1px whitesmoke solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 200px;
+}
+
+#menu ul a {
+    text-decoration:  none;
+}
+
+#menu ul a:visited {
+    color: whitesmoke;
+}
+
